@@ -37,14 +37,20 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
             </li>
 
             <li>
+              <a onClick={() => handleScroll("timeline")} className="menu-item">
+                Timeline
+              </a>
+            </li>
+
+            <li>
               <a onClick={() => handleScroll("contact")} className="menu-item">
                 Contact Me
               </a>
             </li>
 
-            <button className="contact-btn" onClick={() => {}}>
+            {/* <button className="contact-btn" onClick={() => {}}>
               Hire Me
-            </button>
+            </button> */}
           </ul>
         </div>
       </div>

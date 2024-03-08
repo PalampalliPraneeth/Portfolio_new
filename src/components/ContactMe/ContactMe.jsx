@@ -9,7 +9,7 @@ const ContactMe = () => {
       <h5>Contact Me</h5>
 
       <div className="contact-content">
-        <div style={{flex: 1}}>
+        {/* <div style={{flex: 1}}>
           <ContactInfoCard
             iconUrl="./assets/images/email-icon.svg"
             text="John@timetoprogram.com"
@@ -19,7 +19,7 @@ const ContactMe = () => {
             iconUrl="./assets/images/github-icon.svg"
             text="https://github.com/time-to-program"
           />
-        </div>
+        </div> */}
 
         <div style={{flex: 1}}>
           <ContactForm />

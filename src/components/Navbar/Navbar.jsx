@@ -31,6 +31,10 @@ function NavBar() {
             <li>
               <Link activeClass="active" to="work-exp" smooth spy offset={-100} className="menu-item">Work Experience</Link>
             </li>
+            
+            <li>
+              <Link activeClass="active" to="timeline" smooth spy offset={-100} className="menu-item">Timeline</Link>
+            </li>
 
             <li>
               <Link activeClass="active" to="contact" smooth spy offset={-100} className="menu-item">Contact Me</Link>

@@ -6,7 +6,7 @@ import EYImage from '../../EY.png';
 import UBImage from '../../UB.png';
 import SRMImage from '../../SRM.png';
 import NarayanaImage from '../../Narayana.png';
-
+import AgsdoImage from '../../agsdo.png';
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -26,8 +26,9 @@ function Education() {
             let isWorkIcon = element.icon === "work";
             let isUb = element.id === 1;
             let isEy = element.id === 2; 
-            let isSrm = element.id === 3; 
-            let isNarayana = element.id === 4 || element.id === 5;
+            let isAgsdo = element.id === 3; 
+            let isSrm = element.id === 4; 
+            let isNarayana = element.id === 5 || element.id === 6;
             let showButton =
                 element.buttonText !== undefined &&
                 element.buttonText !== null &&
@@ -43,18 +44,22 @@ function Education() {
         >
             <div style={{display:"flex", alignItems: "center" }}>
                 <div style={{ width: "50px", height: "50px", overflow: "hidden", marginRight: "10px" }}>
-                    {isUb ? <img src={UBImage} alt="Logo" style={{ width: "100%", height: "100%", objectFit: "cover" }} /> : null}
+                    {isUb && <img src={UBImage} alt="Logo" style={{ width: "100%", height: "100%", objectFit: "cover" }} />}
                     {isEy && <img src={EYImage} alt="Logo" style={{ width: "100%", height: "100%", objectFit: "cover" }} />}
+                    {isAgsdo && <img src={AgsdoImage} alt="Logo" style={{ width: "100%", height: "100%", objectFit: "cover" }} />}
                     {isSrm && <img src={SRMImage} alt="Logo" style={{ width: "100%", height: "100%", objectFit: "cover" }} />}
-                    {isNarayana ? <img src={NarayanaImage} alt="Logo" style={{ width: "100%", height: "100%", objectFit: "cover" }} /> : null}
+                    {isNarayana && <img src={NarayanaImage} alt="Logo" style={{ width: "100%", height: "100%", objectFit: "cover" }} />}
                 </div>
                 <div>
                     <h3 style={{color: "black"}}>
                         {element.title}
                     </h3>
                     <div>
-                        <h5 style={{color: "black"}}>
+                        {/* <h5 style={{color: "black"}}>
                             {element.date}
+                        </h5> */}
+                        <h5 style={{color: "black"}}>
+                        {element.position}
                         </h5>
                         <h5 style={{color: "black"}}>
                             {element.location}
@@ -62,17 +67,22 @@ function Education() {
                     </div>
                 </div>
             </div>
-            <p id="description" className="description">{element.description}</p>
-            {showButton && (
-                <a
-                    className={`button ${
-                        isWorkIcon ? "workButton" : "schoolButton"
-                    }`}
-                    href="/"
-                >
+            <div>
+                {Array.isArray(element.description) ? (
+                    <ul id="description" className="description">
+                    {element.description.map((item, index) => (
+                        <li key={index}>{item}</li>
+                    ))}
+                    </ul>
+                ) : (
+                    <p id="description" className="description">{element.description}</p>
+                )}
+            </div>
+            {/* {showButton && (
+                <a className={`button ${ isWorkIcon ? "workButton" : "schoolButton"}`} href="/">
                     {element.buttonText}
                 </a>
-            )}
+            )} */}
         </VerticalTimelineElement>
         );
     })}
