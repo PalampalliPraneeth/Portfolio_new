@@ -10,11 +10,20 @@ export const SKILLS = [
     ],
   },
   {
-    title: "Data Analyst",
+    title: "Data Analysis",
     icon: "./assets/images/backend-icon.png",
     skills: [
       { skill: "Python", percentage: "70%" },
       { skill: "Express.js", percentage: "65%" },
+    ],
+  },
+  {
+    title: "Database Systems",
+    icon: "./assets/images/soft-skills-icon.png",
+    skills: [
+      { skill: "SQL", percentage: "80%" },
+      { skill: "Oracle", percentage: "85%" },
+      { skill: "MY SQL", percentage: "75%" },
     ],
   },
   {
@@ -25,15 +34,6 @@ export const SKILLS = [
       { skill: "Visual Studio Code", percentage: "75%" },
       { skill: "Webpack", percentage: "60%" },
       { skill: "Responsive Design", percentage: "70%" },
-    ],
-  },
-  {
-    title: "Soft Skills",
-    icon: "./assets/images/soft-skills-icon.png",
-    skills: [
-      { skill: "Problem-solving", percentage: "80%" },
-      { skill: "Collaboration", percentage: "85%" },
-      { skill: "Attention to Detail", percentage: "75%" },
     ],
   },
 ];

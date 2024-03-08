@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section id="hero" className="hero-container">
       <div className="hero-content">
-        <h2>Building Digital Experiences That Inspire</h2>
+        <h2>Hi There, I'm Praneeth</h2>
         <p>
           Passionate Frontend Developer | Transforming Ideas into Seamless and
           Visually Stunning Web Solutions
@@ -17,7 +17,7 @@ const Hero = () => {
           <div className="tech-icon">
             <img src="./assets/images/img01.png" alt="" />
           </div>
-          <img src="./assets/images/img11.png" alt="" />
+          <img src="./assets/images/profile.jpeg" alt="" style={{borderRadius: '20px'}}  />
         </div>
 
         <div>
