@@ -47,6 +47,7 @@ export const WORK_EXPERIENCE = [
       "Developed a Python-based sentiment analyzer for Amazon.com reviews, achieving a 90% accuracy rate in categorizing sentiments as positive, negative, and neutral",
       "Engineered a neural network utilizing Keras, resulting in a 20% increase in precision for sentiment analysis"
     ],
+    gitUrl:"https://github.com/PalampalliPraneeth/Sentiment-analysis"
     },
     {
       id: 2,
@@ -56,6 +57,7 @@ export const WORK_EXPERIENCE = [
         "Revitalized machine learning pipeline, boosting telecom customer churn prediction accuracy by 20% using TensorFlow and scikit-learn, leading to a reduction in customer attrition",
         "Addressing class imbalance using SMOTE increased minority class instances by 50%, resulting in a further 10% improvement in prediction accuracy, as measured by the area under the ROC curve",
       ],
+      gitUrl:"https://github.com/PalampalliPraneeth/Telcom-Customer-Churn"
     },
     {
       id: 3,
@@ -65,6 +67,7 @@ export const WORK_EXPERIENCE = [
         "Utilized R to analyze physicochemical data of red wine variants, generating actionable insights for quality prediction, achieving a 15% increase in predictive accuracy compared to previous methods",
         "Developed interactive visualizations using Matplotlib and ggplot2 to illustrate correlations between key variables, facilitating a 30% improvement in understanding wine quality determinants",
       ],
+      gitUrl:"https://github.com/PalampalliPraneeth/Red-Wine-Quality-"
     },
     {
       id: 4,
@@ -74,6 +77,8 @@ export const WORK_EXPERIENCE = [
         "Developed a Wordle clone app using React.js, which replicates the popular word guessing game",
         "Achieved 15% improvement in user engagement through responsive design implementation",
       ],
+      gitUrl: "https://github.com/PalampalliPraneeth/Wordle-Clone",
+      webUrl: "https://wordle-clone-95um.vercel.app/"
     },
     {
       id: 5,
@@ -83,6 +88,8 @@ export const WORK_EXPERIENCE = [
         "Spearheaded the development of a weather application utilizing React.js, Axios, and OpenWeatherMap API, delivering real-time weather updates with precision and efficiency",
         "Successfully integrated key weather metrics such as temperature, feels-like temperature, humidity, and wind speed, enhancing user experience and satisfaction by 30%",
       ],
+      gitUrl: "https://github.com/PalampalliPraneeth/Weather-application",
+      webUrl: "https://weather-application-beta-self.vercel.app/"
     },
   // {
   //   title: "Senior Frontend Developer at Tech Innovators",
