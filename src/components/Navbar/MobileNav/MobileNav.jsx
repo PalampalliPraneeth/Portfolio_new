@@ -32,7 +32,7 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
 
             <li>
               <a onClick={() => handleScroll("work-exp")} className="menu-item">
-                Work Experience
+                Projects
               </a>
             </li>
 

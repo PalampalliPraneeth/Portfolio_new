@@ -29,7 +29,7 @@ function NavBar() {
             </li>
 
             <li>
-              <Link activeClass="active" to="work-exp" smooth spy offset={-100} className="menu-item">Work Experience</Link>
+              <Link activeClass="active" to="work-exp" smooth spy offset={-100} className="menu-item">Projects</Link>
             </li>
             
             <li>
