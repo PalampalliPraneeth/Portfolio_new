@@ -40,14 +40,16 @@ export const SKILLS = [
 
 export const WORK_EXPERIENCE = [
   {
-      title: "Sentimental Analysis using Amazon Reviews",
-      // date: "January 2022 - Present",
-      responsibilities: [
-        "Developed a Python-based sentiment analyzer for Amazon.com reviews, achieving a 90% accuracy rate in categorizing sentiments as positive, negative, and neutral",
-        "Engineered a neural network utilizing Keras, resulting in a 20% increase in precision for sentiment analysis"
-      ],
+    id: 1,
+    title: "Sentimental Analysis using Amazon Reviews",
+    // date: "January 2022 - Present",
+    responsibilities: [
+      "Developed a Python-based sentiment analyzer for Amazon.com reviews, achieving a 90% accuracy rate in categorizing sentiments as positive, negative, and neutral",
+      "Engineered a neural network utilizing Keras, resulting in a 20% increase in precision for sentiment analysis"
+    ],
     },
     {
+      id: 2,
       title: "Telco Customer Churn ",
       // date: "January 2022 - Present",
       responsibilities: [
@@ -56,6 +58,7 @@ export const WORK_EXPERIENCE = [
       ],
     },
     {
+      id: 3,
       title: "Red Wine Quality Prediction: A Multivariate Regression Analysis ",
       // date: "January 2022 - Present",
       responsibilities: [
@@ -64,6 +67,7 @@ export const WORK_EXPERIENCE = [
       ],
     },
     {
+      id: 4,
       title: "Wordle Clone ",
       // date: "January 2022 - Present",
       responsibilities: [
@@ -72,6 +76,7 @@ export const WORK_EXPERIENCE = [
       ],
     },
     {
+      id: 5,
       title: "Weather Application",
       // date: "January 2022 - Present",
       responsibilities: [

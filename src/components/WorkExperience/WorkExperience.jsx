@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import "./WorkExperience.css";
 import ExperienceCard from "./ExperienceCard/ExperienceCard";
 import { WORK_EXPERIENCE } from "../../utils/data";
@@ -6,10 +6,11 @@ import Slider from "react-slick";
 
 const WorkExperience = () => {
   const sliderRef = useRef();
+  const [currentSlide, setCurrentSlide] = useState(0);
 
   const settings = {
     dots: false,
-    infinite: true,
+    infinite: false,
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
@@ -26,11 +27,15 @@ const WorkExperience = () => {
   };
 
   const slideRight = () => {
-    sliderRef.current.slickNext();
+    if (currentSlide < WORK_EXPERIENCE.length - settings.slidesToShow) {
+      sliderRef.current.slickNext();
+    }
   };
 
   const slideLeft = () => {
-    sliderRef.current.slickPrev();
+    if (currentSlide > 0) {
+      sliderRef.current.slickPrev();
+    }
   };
 
   return (
@@ -38,15 +43,25 @@ const WorkExperience = () => {
       <h5>Projects</h5>
 
       <div className="experience-content">
-        <div className="arrow-right" onClick={slideRight}>
-          <span class="material-symbols-outlined">chevron_right</span>
-        </div>
+        {/* Conditionally render the right arrow icon */}
+        {currentSlide < WORK_EXPERIENCE.length - settings.slidesToShow && (
+          <div className="arrow-right" onClick={slideRight}>
+            <span className="material-symbols-outlined">chevron_right</span>
+          </div>
+        )}
 
-        <div className="arrow-left" onClick={slideLeft}>
-          <span class="material-symbols-outlined">chevron_left</span>
-        </div>
+        {/* Conditionally render the left arrow icon */}
+        {currentSlide > 0 && (
+          <div className="arrow-left" onClick={slideLeft}>
+            <span className="material-symbols-outlined">chevron_left</span>
+          </div>
+        )}
 
-        <Slider ref={sliderRef} {...settings}>
+        <Slider
+          ref={sliderRef}
+          {...settings}
+          afterChange={(index) => setCurrentSlide(index)}
+        >
           {WORK_EXPERIENCE.map((item) => (
             <ExperienceCard key={item.title} details={item} />
           ))}
@@ -56,4 +71,4 @@ const WorkExperience = () => {
   );
 };
 
-export default WorkExperience;
+export default WorkExperience;  
