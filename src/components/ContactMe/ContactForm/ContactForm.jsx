@@ -16,9 +16,6 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('name', name)
-    console.log('email', email)
-    console.log('message', messageText)
     setNameError("");
     setEmailError("");
     setMessageError("");
@@ -96,11 +93,14 @@ const ContactForm = () => {
           {/* <input type="text" name="lastname" placeholder="Last Name" /> */}
         </div>
         {nameError && <span className="error">{nameError}</span>}
+
         <input type="text" name="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)}/>
         {emailError && <span className="error">{emailError}</span>}
+
         {/* <input type="text" name="Subject" placeholder="Subject" /> */}
         <textarea type="text" name="message" placeholder="Message" rows={3} value={messageText} onChange={(e) => setMessageText(e.target.value)}/>
         {messageError && <span className="error">{messageError}</span>}
+
         <button>SEND</button>
         {messageSent && <span className="success">Thanks, I'll reply ASAP :)</span>}
       </form>
