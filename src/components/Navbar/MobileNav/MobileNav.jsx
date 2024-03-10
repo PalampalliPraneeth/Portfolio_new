@@ -44,7 +44,7 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
 
             <li>
               <a onClick={() => handleScroll("contact")} className="menu-item">
-                Contact Me
+                Contact
               </a>
             </li>
 

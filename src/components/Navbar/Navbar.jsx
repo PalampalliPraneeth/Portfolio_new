@@ -37,7 +37,7 @@ function NavBar() {
             </li>
 
             <li>
-              <Link activeClass="active" to="contact" smooth spy offset={-100} className="menu-item">Contact Me</Link>
+              <Link activeClass="active" to="contact" smooth spy offset={-100} className="menu-item">Contact</Link>
             </li>
 
             {/* <button className="contact-btn" onClick={() => {}}>
