@@ -2,13 +2,31 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import MobileNav from "./MobileNav/MobileNav";
 import { Link } from "react-scroll";
+import resumeFile from "../../Resume_Software.pdf";
+
 
 function NavBar() {
   const [openMenu, setOpenMenu] = useState(false);
-
   const toggleMenu = () => {
     setOpenMenu(!openMenu);
   };
+
+const handleDownloadResume = () => {
+  try {
+    const link = document.createElement("a");
+    link.href = resumeFile;
+    link.download = "PraneethKumarReddy.pdf";
+
+    // Trigger a click event to download the file
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  } catch (error) {
+    console.error("Error downloading resume:", error);
+  }
+};
+  
+  
 
   return (
     <>
@@ -38,6 +56,11 @@ function NavBar() {
 
             <li>
               <Link activeClass="active" to="contact" smooth spy offset={-100} className="menu-item">Contact</Link>
+            </li>
+
+            <li>
+              {/* <Link activeClass="active" to="contact" smooth spy offset={-100} className="menu-item">Resume</Link> */}
+              <input type="button" className="downloadButton" value="Resume" smooth spy offset={-100} onClick={handleDownloadResume} />
             </li>
 
             {/* <button className="contact-btn" onClick={() => {}}>

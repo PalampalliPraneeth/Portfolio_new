@@ -52,7 +52,7 @@ let timelineElements = [
   {
     id: 5,
     title: "Narayana Junior College",
-    position: "Maths,Physics,Chemistry",
+    position: "Maths, Physics, Chemistry",
     location: "Hyderabad, India",
     description:
       ["Gained a strong foundation in mathematics and sciences",
