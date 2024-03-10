@@ -1,11 +1,27 @@
 import React from "react";
 import "./MobileNav.css";
+import resumeFile from "../../../Resume_Software.pdf";
 
 const MobileNav = ({ isOpen, toggleMenu }) => {
   
   const handleScroll = (sectionId) => {
     if(isOpen) toggleMenu();
     document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
+  };
+
+  const handleDownloadResume = () => {
+    try {
+      const link = document.createElement("a");
+      link.href = resumeFile;
+      link.download = "PraneethKumarReddy.pdf";
+  
+      // Trigger a click event to download the file
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    } catch (error) {
+      console.error("Error downloading resume:", error);
+    }
   };
 
   return (
@@ -48,9 +64,9 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
               </a>
             </li>
 
-            {/* <button className="contact-btn" onClick={() => {}}>
-              Hire Me
-            </button> */}
+            <button className="contact-btn" onClick={handleDownloadResume}>
+              Resume
+            </button>
           </ul>
         </div>
       </div>

@@ -58,14 +58,13 @@ const handleDownloadResume = () => {
               <Link activeClass="active" to="contact" smooth spy offset={-100} className="menu-item">Contact</Link>
             </li>
 
-            <li>
-              {/* <Link activeClass="active" to="contact" smooth spy offset={-100} className="menu-item">Resume</Link> */}
+            {/* <li>
               <input type="button" className="downloadButton" value="Resume" smooth spy offset={-100} onClick={handleDownloadResume} />
-            </li>
+            </li> */}
 
-            {/* <button className="contact-btn" onClick={() => {}}>
-              Hire Me
-            </button> */}
+            <button className="contact-btn" onClick={handleDownloadResume}>
+              Resume
+            </button>
           </ul>
 
           <button class="menu-btn" onClick={toggleMenu}>
