@@ -40,6 +40,7 @@ export const SKILLS = [
     icon: "./assets/images/tools-icon.png",
     skills: [
       { skill: "Git & GitHub", percentage: "85%" },
+      { skill: "Google Analytics", percentage: "65%" },
       { skill: "Visual Studio Code", percentage: "90%" },
       { skill: "Google Colab", percentage: "80%" },
       { skill: "Jupyter Notebook", percentage: "80%" },
