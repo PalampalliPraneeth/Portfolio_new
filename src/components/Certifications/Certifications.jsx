@@ -11,6 +11,7 @@ import explore from '../../explore.png';
 import transform from '../../transform.png';
 import pythonCoursera from '../../python_coursera.png';
 import nptel from '../../nptel.png';
+import best from '../../more.jpg'
 
 const badges = [
   {
@@ -64,9 +65,10 @@ const badges = [
     url: 'https://coursera.org/share/d9a792279ffc8f2885e14b80e3ef45e7'
   },
   { 
-    title: 'Data Science for Engineers',
-    image: nptel,
-  }
+    // title: 'Data Science for Engineers',
+    image: best,
+  },
+
 ];
 
 const Certifications = () => {
