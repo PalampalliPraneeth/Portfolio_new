@@ -45,9 +45,9 @@ const badges = [
     url: 'https://www.credly.com/badges/4bbef56a-e019-44c3-9109-bf45c1a438b7/public_url'
   },
   { 
-    title: 'Create Views and Dashboards',
-    image: create,
-    url: 'https://www.credly.com/badges/d2d606ce-20b3-4fcf-aab5-acb733e5ee07/public_url'
+    title: 'Connect to and Transform Data',
+    image: transform,
+    url: 'https://www.credly.com/badges/0e2b0fbd-1555-4549-8ad0-d5e6921c6934/public_url'
   },
   { 
     title: 'Explore and Analyze Data',
@@ -55,9 +55,9 @@ const badges = [
     url: 'https://www.credly.com/badges/2671ad39-688d-4615-900b-1b4c68ab07aa/public_url'
   },
   { 
-    title: 'Connect to and Transform Data',
-    image: transform,
-    url: 'https://www.credly.com/badges/0e2b0fbd-1555-4549-8ad0-d5e6921c6934/public_url'
+    title: 'Create Views and Dashboards',
+    image: create,
+    url: 'https://www.credly.com/badges/d2d606ce-20b3-4fcf-aab5-acb733e5ee07/public_url'
   },
 //   { 
 //     title: 'Programming for Everybody(Getting Started with Python)',
