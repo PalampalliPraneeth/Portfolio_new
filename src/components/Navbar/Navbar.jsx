@@ -55,6 +55,10 @@ const handleDownloadResume = () => {
             </li>
 
             <li>
+              <Link activeClass="active" to="certifications" smooth spy offset={-100} className="menu-item">Certifications</Link>
+            </li>
+
+            <li>
               <Link activeClass="active" to="contact" smooth spy offset={-100} className="menu-item">Contact</Link>
             </li>
 

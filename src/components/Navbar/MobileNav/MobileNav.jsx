@@ -59,6 +59,12 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
             </li>
 
             <li>
+              <a onClick={() => handleScroll("certifications")} className="menu-item">
+               Certifications
+              </a>
+            </li>
+
+            <li>
               <a onClick={() => handleScroll("contact")} className="menu-item">
                 Contact
               </a>
