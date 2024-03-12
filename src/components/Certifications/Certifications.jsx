@@ -59,11 +59,11 @@ const badges = [
     image: transform,
     url: 'https://www.credly.com/badges/0e2b0fbd-1555-4549-8ad0-d5e6921c6934/public_url'
   },
-  { 
-    title: 'Programming for Everybody(Getting Started with Python)',
-    image: pythonCoursera,
-    url: 'https://coursera.org/share/d9a792279ffc8f2885e14b80e3ef45e7'
-  },
+//   { 
+//     title: 'Programming for Everybody(Getting Started with Python)',
+//     image: pythonCoursera,
+//     url: 'https://coursera.org/share/d9a792279ffc8f2885e14b80e3ef45e7'
+//   },
   { 
     // title: 'Data Science for Engineers',
     image: best,
