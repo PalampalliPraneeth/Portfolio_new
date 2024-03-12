@@ -5,7 +5,7 @@ let timelineElements = [
     position: "Master's in Business Analytics",
     location: "Buffalo, USA",
     description:
-      ["Pursued Master's in Business Analytics"],
+      ["Coursework:  DataBase Management System, Visual Basic for Applications, SQL, Python, R Programming, Statistical Analysis, Web Analytics, Tableau, Power Bi, Supply Chain Analytics, HealthCare Analytics, OLAP, Machine Learning"],
     date: "07/2023 - 06/2024",
     icon: "school",
     image: "../public/assets/images/UB.png"
@@ -42,7 +42,7 @@ let timelineElements = [
     position: "Bachelor of Engineering, Information and Technology",
     location: "Chennai, India",
     description:
-      ["Pursued a Bachelor's degree in Information Technology.Studied diverse subjects including C programming, SQL, web development, python and Agile Methodology", 
+      ["Pursued a Bachelor's degree in Information Technology.Studied diverse subjects including C programming, SQL, Html, CSS, Excel, R language, Python and Agile Methodology", 
       "Applied programming skills to real-world scenarios and projects"],
     buttonText: "Course Certificate",
     date: "06/2017 - 05/2021",
