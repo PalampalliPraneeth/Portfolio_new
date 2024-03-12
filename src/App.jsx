@@ -8,6 +8,7 @@ import ContactMe from "./components/ContactMe/ContactMe";
 import Footer from "./components/Footer/Footer";
 import Education from "./components/Education/Education";
 import SocialMediaIcons from "./components/SocialMediaIcons/SocialMediaIcons";
+import Certifications from "./components/Certifications/Certifications";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Skills />
         <WorkExperience />
         <Education />
+        <Certifications />
         <ContactMe />
       </div>
       <SocialMediaIcons/>
