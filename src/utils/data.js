@@ -5,9 +5,14 @@ export const SKILLS = [
     skills: [
       { skill: "HTML5", percentage: "90%" },
       { skill: "CSS3 (Sass/SCSS)", percentage: "75%" },
-      { skill: "JavaScript", percentage: "75%" },
-      { skill: "React.js", percentage: "80%" },
+      { skill: "BootStrap", percentage: "75%" },
+      { skill: "JavaScript", percentage: "80%" },
+      { skill: "React js", percentage: "80%" },
+      { skill: "Node js", percentage: "70%" },
       { skill: "React Native", percentage: "60%" },
+      { skill: "TypeScript", percentage: "60%" },
+      { skill: "NPM", percentage: "60%" },
+
     ],
   },
   {
@@ -17,7 +22,7 @@ export const SKILLS = [
       { skill: "Python", percentage: "75%" },
       { skill: "R", percentage: "70%" },
       { skill: "Excel", percentage: "80%" },
-      { skill: "Power BI", percentage: "65%" },
+      { skill: "Power BI", percentage: "50%" },
       { skill: "Tableau", percentage: "65%" },
       { skill: "NLP", percentage: "80%" },
       { skill: "TensorFlow", percentage: "75%" },
