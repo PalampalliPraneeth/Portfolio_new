@@ -33,7 +33,7 @@ let timelineElements = [
         "Reduced stockouts by 20% through predictive modeling using sales data, improving production planning and meeting customer demand effectively",
         "Contributed to 10% revenue growth by capitalizing on emerging market trends through comprehensive market research and competitor analysis in the seed industry"
         ],
-    date: "01/2021 - 10/2021",
+    date: "08/2020 - 10/2021",
     icon: "work",
   },
   {
@@ -65,7 +65,6 @@ let timelineElements = [
   {
     id: 6,
     title: "Narayana English Medium High School",
-    // position: "",
     location: "Kadapa, India",
     description:
       ["Excelled in a rigorous academic environment with a focus on holistic development",
