@@ -1,4 +1,5 @@
 let timelineElements = [
+  
   {
     id: 1,
     title: "University at Buffalo(Suny Buffalo)",
