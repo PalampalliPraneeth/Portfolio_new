@@ -17,7 +17,7 @@ const Hero = () => {
           <div className="tech-icon">
             <img src="./assets/images/img01.png" alt="" />
           </div>
-          <img src="./assets/images/me(1).jpeg" alt="" style={{borderRadius: '20px'}}  />
+          <img src="./assets/images/Grad.jpeg" alt="" style={{borderRadius: '20px'}}  />
         </div>
 
         <div>
