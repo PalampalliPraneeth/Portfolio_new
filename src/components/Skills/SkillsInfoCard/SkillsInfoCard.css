@@ -19,7 +19,27 @@
 
 .skills-info-content {
   padding: 2rem;
+  max-height: 410px; 
+  overflow-y: auto; 
+  scroll-behavior: smooth; 
+  padding-right: 10px; 
 }
+
+
+.skills-info-content::-webkit-scrollbar {
+  width: 8px; 
+  height: 8px; 
+}
+
+.skills-info-content::-webkit-scrollbar-thumb {
+  background: #9e51b9;
+  border-radius: 4px; 
+}
+
+.skills-info-content ::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
 
 .skill-info {
   display: flex;
