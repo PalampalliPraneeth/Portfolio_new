@@ -24,11 +24,14 @@ const Hero = () => {
           <div className="tech-icon">
             <img src="./assets/images/img02.png" alt="" />
           </div>
-          <div className="tech-icon">
+          {/* <div className="tech-icon">
             <img src="./assets/images/img03.png" alt="" />
-          </div>
+          </div> */}
           <div className="tech-icon">
             <img src="./assets/images/img04.png" alt="" />
+          </div>
+          <div className="tech-icon">
+            <img src="./assets/images/python.png" alt="" />
           </div>
         </div>
       </div>
