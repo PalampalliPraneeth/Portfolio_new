@@ -1,3 +1,4 @@
+
 export const SKILLS = [
   {
     title: "Front-End/UI",
@@ -34,8 +35,6 @@ export const SKILLS = [
       { skill: "LLM", percentage: "60%" },
       { skill: "Transformers", percentage: "50%" },
       { skill: "NPM", percentage: "60%" },
-      { skill: "Power BI", percentage: "50%" },
-      { skill: "Tableau", percentage: "65%" },
       { skill: "ETL", percentage: "65%" },
       { skill: "NLP", percentage: "80%" },
       { skill: "TensorFlow", percentage: "75%" },
@@ -52,6 +51,21 @@ export const SKILLS = [
       { skill: "SQL", percentage: "85%" },
       { skill: "Oracle", percentage: "80%" },
       { skill: "MS SQL", percentage: "75%" },
+      { skill: "SnowFlake", percentage: "70%" },
+
+    ],
+  },
+  {
+    title: "Data Visualization",
+    icon: "./assets/images/vie.png",
+    style:{
+      'background_color': "red",
+    },
+    iconStyle: "fill: #7c5fe6;",
+    skills: [
+      { skill: "Power BI", percentage: "75%" },
+      { skill: "Tableau", percentage: "65%" },
+      { skill: "Google Looker Studio", percentage: "40%" },
     ],
   },
   {
@@ -59,10 +73,10 @@ export const SKILLS = [
     icon: "./assets/images/tools-icon.png",
     skills: [
       { skill: "Git & GitHub", percentage: "85%" },
-      { skill: "Google Analytics", percentage: "65%" },
       { skill: "Visual Studio Code", percentage: "90%" },
       { skill: "Google Colab", percentage: "80%" },
       { skill: "Jupyter Notebook", percentage: "80%" },
+      { skill: "Google Analytics", percentage: "65%" },
       { skill: "Android Studio", percentage: "40%" },
       { skill: "C programming", percentage: "70%" },
       { skill: "MATLAB", percentage: "75%" },
