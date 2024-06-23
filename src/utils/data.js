@@ -89,6 +89,60 @@ export const SKILLS = [
 export const WORK_EXPERIENCE = [
   {
     id: 1,
+    title: "Evo Fitness GYM Website ",
+    // date: "January 2022 - Present",
+    responsibilities: [
+      "It showcases the features and services offered by the gym, including classes, benefits, and contact information",
+      "Built using TypeScript, React, and Framer Motion",
+    ],
+    gitUrl: "https://github.com/PalampalliPraneeth/Gym-Website",
+    webUrl: "https://evo-gym-fitness.vercel.app/"
+  },
+  {
+    id: 2,
+    title: "Wordle Clone ",
+    // date: "January 2022 - Present",
+    responsibilities: [
+      "Developed a Wordle clone app using React.js, which replicates the popular word guessing game",
+      "Achieved 15% improvement in user engagement through responsive design implementation",
+    ],
+    gitUrl: "https://github.com/PalampalliPraneeth/Wordle-Clone",
+    webUrl: "https://wordle-clone-95um.vercel.app/"
+  },
+  {
+    id: 3,
+    title: "Weather Application",
+    // date: "January 2022 - Present",
+    responsibilities: [
+      "Spearheaded the development of a weather application utilizing React.js, Axios, and OpenWeatherMap API, delivering real-time weather updates with precision and efficiency",
+      "Successfully integrated key weather metrics such as temperature, feels-like temperature, humidity, and wind speed, enhancing user experience and satisfaction by 30%",
+    ],
+    gitUrl: "https://github.com/PalampalliPraneeth/Weather-application",
+    webUrl: "https://weather-application-beta-self.vercel.app/"
+  },
+  {
+    id: 4,
+    title: "URL Web Scrapper using Gemini LLM",
+    // date: "January 2022 - Present",
+    responsibilities: [
+      "This project is a web-based application built with Streamlit that allows users to scrape text content from a URL and ask questions about the content using a LLM (Language Learning Model) based on Gemini and Langchain agents",
+      "The application utilizes the Gemini LLM (Large Language Model) from Google to provide accurate and relevant answers to the user's questions"
+    ],
+    gitUrl:"https://github.com/PalampalliPraneeth/Url-Web-Scrapper",
+    webUrl: "https://url-web-scrapper.streamlit.app/"
+    },
+    {
+      id: 5,
+      title: "Telco Customer Churn ",
+      // date: "January 2022 - Present",
+      responsibilities: [
+        "Revitalized machine learning pipeline, boosting telecom customer churn prediction accuracy by 20% using TensorFlow and scikit-learn, leading to a reduction in customer attrition",
+        "Addressing class imbalance using SMOTE increased minority class instances by 50%, resulting in a further 10% improvement in prediction accuracy, as measured by the area under the ROC curve",
+      ],
+      gitUrl:"https://github.com/PalampalliPraneeth/Telcom-Customer-Churn"
+    },
+  {
+    id: 6,
     title: "Sentimental Analysis using Amazon Reviews",
     // date: "January 2022 - Present",
     responsibilities: [
@@ -98,17 +152,7 @@ export const WORK_EXPERIENCE = [
     gitUrl:"https://github.com/PalampalliPraneeth/Sentiment-analysis"
     },
     {
-      id: 2,
-      title: "Telco Customer Churn ",
-      // date: "January 2022 - Present",
-      responsibilities: [
-        "Revitalized machine learning pipeline, boosting telecom customer churn prediction accuracy by 20% using TensorFlow and scikit-learn, leading to a reduction in customer attrition",
-        "Addressing class imbalance using SMOTE increased minority class instances by 50%, resulting in a further 10% improvement in prediction accuracy, as measured by the area under the ROC curve",
-      ],
-      gitUrl:"https://github.com/PalampalliPraneeth/Telcom-Customer-Churn"
-    },
-    {
-      id: 3,
+      id: 7,
       title: "Red Wine Quality Prediction: A Multivariate Regression Analysis ",
       // date: "January 2022 - Present",
       responsibilities: [
@@ -116,27 +160,5 @@ export const WORK_EXPERIENCE = [
         "Developed interactive visualizations using Matplotlib and ggplot2 to illustrate correlations between key variables, facilitating a 30% improvement in understanding wine quality determinants",
       ],
       gitUrl:"https://github.com/PalampalliPraneeth/Red-Wine-Quality-"
-    },
-    {
-      id: 4,
-      title: "Wordle Clone ",
-      // date: "January 2022 - Present",
-      responsibilities: [
-        "Developed a Wordle clone app using React.js, which replicates the popular word guessing game",
-        "Achieved 15% improvement in user engagement through responsive design implementation",
-      ],
-      gitUrl: "https://github.com/PalampalliPraneeth/Wordle-Clone",
-      webUrl: "https://wordle-clone-95um.vercel.app/"
-    },
-    {
-      id: 5,
-      title: "Weather Application",
-      // date: "January 2022 - Present",
-      responsibilities: [
-        "Spearheaded the development of a weather application utilizing React.js, Axios, and OpenWeatherMap API, delivering real-time weather updates with precision and efficiency",
-        "Successfully integrated key weather metrics such as temperature, feels-like temperature, humidity, and wind speed, enhancing user experience and satisfaction by 30%",
-      ],
-      gitUrl: "https://github.com/PalampalliPraneeth/Weather-application",
-      webUrl: "https://weather-application-beta-self.vercel.app/"
     },
 ];
