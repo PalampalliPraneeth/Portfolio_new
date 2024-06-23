@@ -93,7 +93,7 @@ export const WORK_EXPERIENCE = [
     // date: "January 2022 - Present",
     responsibilities: [
       "It showcases the features and services offered by the gym, including classes, benefits, and contact information",
-      "Built using TypeScript, React, and Framer Motion",
+      "Built application using TypeScript, React, and Framer Motion",
     ],
     gitUrl: "https://github.com/PalampalliPraneeth/Gym-Website",
     webUrl: "https://evo-gym-fitness.vercel.app/"
@@ -103,8 +103,8 @@ export const WORK_EXPERIENCE = [
     title: "Wordle Clone ",
     // date: "January 2022 - Present",
     responsibilities: [
-      "Developed a Wordle clone app using React.js, which replicates the popular word guessing game",
-      "Achieved 15% improvement in user engagement through responsive design implementation",
+      "Wordle Clone is a web-based game inspired by the popular word-guessing game Wordle.",
+      "Built application using React.js",
     ],
     gitUrl: "https://github.com/PalampalliPraneeth/Wordle-Clone",
     webUrl: "https://wordle-clone-95um.vercel.app/"
@@ -114,8 +114,8 @@ export const WORK_EXPERIENCE = [
     title: "Weather Application",
     // date: "January 2022 - Present",
     responsibilities: [
-      "Spearheaded the development of a weather application utilizing React.js, Axios, and OpenWeatherMap API, delivering real-time weather updates with precision and efficiency",
-      "Successfully integrated key weather metrics such as temperature, feels-like temperature, humidity, and wind speed, enhancing user experience and satisfaction by 30%",
+      "A simple weather application built with React that allows users to get the current weather information for a specific location",
+      "The app fetches weather data from the OpenWeatherMap API",
     ],
     gitUrl: "https://github.com/PalampalliPraneeth/Weather-application",
     webUrl: "https://weather-application-beta-self.vercel.app/"
@@ -156,8 +156,8 @@ export const WORK_EXPERIENCE = [
       title: "Red Wine Quality Prediction: A Multivariate Regression Analysis ",
       // date: "January 2022 - Present",
       responsibilities: [
-        "Utilized R to analyze physicochemical data of red wine variants, generating actionable insights for quality prediction, achieving a 15% increase in predictive accuracy compared to previous methods",
-        "Developed interactive visualizations using Matplotlib and ggplot2 to illustrate correlations between key variables, facilitating a 30% improvement in understanding wine quality determinants",
+        "This project analyzes the quality of red wine using various machine learning models, including linear regression, polynomial regression, decision trees, and random forests",
+        "The analysis uses the red wine quality dataset, exploring relationships between chemical properties and wine quality ratings",
       ],
       gitUrl:"https://github.com/PalampalliPraneeth/Red-Wine-Quality-"
     },
