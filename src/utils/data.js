@@ -126,7 +126,7 @@ export const WORK_EXPERIENCE = [
     // date: "January 2022 - Present",
     responsibilities: [
       "This project is a web-based application built with Streamlit that allows users to scrape text content from a URL and ask questions about the content using a LLM (Language Learning Model) based on Gemini and Langchain agents",
-      "The application utilizes the Gemini LLM (Large Language Model) from Google to provide accurate and relevant answers to the user's questions"
+      "The application utilizes the Gemini LLM from Google to provide accurate and relevant answers to the user's questions"
     ],
     gitUrl:"https://github.com/PalampalliPraneeth/Url-Web-Scrapper",
     webUrl: "https://url-web-scrapper.streamlit.app/"
