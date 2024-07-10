@@ -27,10 +27,11 @@ let timelineElements = [
   {
     id: 3,
     title: "Agsdo Pvt Ltd",
-    position: "Supply Chain Analyst",
+    position: "Junior Software Engineer",
     location: "Kurnool, India",
     description:
-      ["Increased seed procurement efficiency by 15% through data-driven insights, leading to more informed inventory management decisions and cost savings", 
+      ["Developed responsive web interfaces using React.js, resulting in a 30% improvement in user engagement for the company's seed inventory management system", 
+        "Implemented advanced state management using Redux Toolkit and Redux Saga, optimizing data flow and reducing application bundle size by 25%",
         "Reduced stockouts by 20% through predictive modeling using sales data, improving production planning and meeting customer demand effectively",
         "Contributed to 10% revenue growth by capitalizing on emerging market trends through comprehensive market research and competitor analysis in the seed industry"
         ],
