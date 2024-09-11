@@ -17,8 +17,9 @@ let timelineElements = [
     position: "Associate Software Engineer",
     location: "Pune, India",
     description:
-      ["Used React.Js and React-redux for development and maintenance of reusable components and state management for PAANS application", 
-      "Implemented a Power BI dashboard, yielding 20% enhancement in API performance monitoring, displaying vital metrics like API hits, accepted and rejected policies"],
+      ["Developed and maintained PAANS, a Consent Management web application using React.js and Node.js", 
+      "Enhanced application performance and user engagement through SEO optimization, leading to significant improvements in search engine visibility and user interaction",
+      "Received SPOT Award for resolving 90% of security vulnerabilities, achieving Checkmarx and WhiteSource certifications."],
     buttonText: "Company Website",
     date: "11/2021 - 06/2023",
     icon: "work",
@@ -30,10 +31,9 @@ let timelineElements = [
     position: "Junior Software Engineer",
     location: "Kurnool, India",
     description:
-      ["Developed responsive web interfaces using React.js, resulting in a 30% improvement in user engagement for the company's seed inventory management system", 
-        "Implemented advanced state management using Redux Toolkit and Redux Saga, optimizing data flow and reducing application bundle size by 25%",
-        "Reduced stockouts by 20% through predictive modeling using sales data, improving production planning and meeting customer demand effectively",
-        "Contributed to 10% revenue growth by capitalizing on emerging market trends through comprehensive market research and competitor analysis in the seed industry"
+      ["Engineered responsive web interfaces for the company's seed inventory management system, leveraging React.js and implementing advanced state management solutions including Redux Toolkit and Redux Saga", 
+        "Spearheaded performance optimization initiatives, employing techniques such as lazy loading and code splitting, resulting in a Lighthouse performance score exceeding 90 across all application pages",
+        "Facilitated seamless data exchange through RESTful API integration and utilized Git for version control, contributing to enhanced system responsiveness and improved team efficiency within an Agile development framework"
         ],
     date: "08/2020 - 10/2021",
     icon: "work",
