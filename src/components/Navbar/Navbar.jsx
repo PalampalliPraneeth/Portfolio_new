@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import MobileNav from "./MobileNav/MobileNav";
 import { Link } from "react-scroll";
-import resumeFile from "../../Resume_Software.pdf";
+// import resumeFile from "../../Resume_Software.pdf";
 
 
 function NavBar() {
@@ -13,6 +13,7 @@ function NavBar() {
 
 const handleDownloadResume = () => {
   try {
+    const resumeFile = "/assets/images/Resume_Software.pdf";
     const link = document.createElement("a");
     link.href = resumeFile;
     link.download = "PraneethKumarReddy.pdf";
