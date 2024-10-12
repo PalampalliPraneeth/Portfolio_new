@@ -35,7 +35,7 @@ let timelineElements = [
         "Spearheaded performance optimization initiatives, employing techniques such as lazy loading and code splitting, resulting in a Lighthouse performance score exceeding 90 across all application pages",
         "Facilitated seamless data exchange through RESTful API integration and utilized Git for version control, contributing to enhanced system responsiveness and improved team efficiency within an Agile development framework"
         ],
-    date: "08/2020 - 10/2021",
+    date: "04/2020 - 10/2021",
     icon: "work",
   },
   {
