@@ -1,7 +1,21 @@
 let timelineElements = [
-  
   {
     id: 1,
+    title: "Community Dreams (Voluntary Full-Time)",
+    position: "Data Analyst",
+    location: "Boston, MA, United States of America",
+    description:
+      ["Designed and developed a clean energy website using Figma for UI/UX, React.js for frontend development, and Microsoft SQL Server for database management, transforming rough designs into functional web pages",
+        "Built a reusable component library with React-Redux, TypeScript, and Angular, improving development efficiency and maintaining project consistency",
+        "Ensured 100% WCAG accessibility compliance by incorporating ARIA roles, color contrast validation, and keyboard navigability into components, enhancing user accessibility across the site"
+    ],
+    buttonText: "Company Website",
+    date: "08/2024 - Present",
+    icon: "work",
+    image: "../public/assets/images/UB.png"
+  },
+  {
+    id: 2,
     title: "University at Buffalo(Suny Buffalo)",
     position: "Master's in Business Analytics",
     location: "Buffalo, USA",
@@ -12,34 +26,35 @@ let timelineElements = [
     image: "../public/assets/images/UB.png"
   },
   {
-    id: 2,
+    id: 3,
     title: "Ernst & Young",
     position: "Associate Software Engineer",
     location: "Pune, India",
     description:
-      ["Developed and maintained PAANS, a Consent Management web application using React.js and Node.js", 
-      "Enhanced application performance and user engagement through SEO optimization, leading to significant improvements in search engine visibility and user interaction",
-      "Received SPOT Award for resolving 90% of security vulnerabilities, achieving Checkmarx and WhiteSource certifications."],
+      ["Developed and maintained PAANS, a Consent Management app using React.js, Node.js, and RESTful APIs, enabling integration with privacy policies for GDPR compliance", 
+      "Streamlined user experience by integrating Auth0 Single Sign-On and JWT, reducing login time and enhancing security with Azure Active Directory (AAD), while automating CI/CD pipelines with Azure DevOps",
+      "Engaged in Agile processes, contributing to architecture discussions, sprint planning, code reviews, and UAT production deployments, ensuring efficient project delivery",
+      "Received SPOT Award for resolving 90% of security vulnerabilities, leading to Checkmarx and WhiteSource certification and significantly boosting system security and stability"],
     buttonText: "Company Website",
     date: "11/2021 - 06/2023",
     icon: "work",
     image: "../public/assets/images/EY.png"
   },
   {
-    id: 3,
+    id: 4,
     title: "Agsdo Pvt Ltd",
     position: "Junior Software Engineer",
     location: "Kurnool, India",
     description:
-      ["Engineered responsive web interfaces for the company's seed inventory management system, leveraging React.js and implementing advanced state management solutions including Redux Toolkit and Redux Saga", 
-        "Spearheaded performance optimization initiatives, employing techniques such as lazy loading and code splitting, resulting in a Lighthouse performance score exceeding 90 across all application pages",
-        "Facilitated seamless data exchange through RESTful API integration and utilized Git for version control, contributing to enhanced system responsiveness and improved team efficiency within an Agile development framework"
+      ["Collaborated with a team in a startup environment, contributing to all stages of product development using SDLC and Agile methodologies, with a focus on full-stack development", 
+        "Developed a full-stack application integrating PostgreSQL for backend data storage and React for the frontend, optimizing SEO and enhancing user engagement",
+        "Improved infrastructure scalability with AWS (DynamoDB, EC2), Docker, Kubernetes, and streamlined CI/CD pipelines using Jenkins and Git to accelerate deployment times"
         ],
     date: "04/2020 - 10/2021",
     icon: "work",
   },
   {
-    id: 4,
+    id: 5,
     title: "SRM Institute of Science and Technology",
     position: "Bachelor of Engineering, Information and Technology",
     location: "Chennai, India",
@@ -52,7 +67,7 @@ let timelineElements = [
     image: "../public/assets/images/SRM.png"
   },
   {
-    id: 5,
+    id: 6,
     title: "Narayana Junior College",
     position: "Maths, Physics, Chemistry",
     location: "Hyderabad, India",
@@ -65,7 +80,7 @@ let timelineElements = [
     image: "../public/assets/images/Narayana.png"
   },
   {
-    id: 6,
+    id: 7,
     title: "Narayana English Medium High School",
     location: "Kadapa, India",
     description:

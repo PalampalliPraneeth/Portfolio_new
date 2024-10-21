@@ -7,6 +7,7 @@ import UBImage from '../../UB.png';
 import SRMImage from '../../SRM.png';
 import NarayanaImage from '../../Narayana.png';
 import AgsdoImage from '../../agsdo.png';
+import CDFImage from '../../CDF.png';
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -24,11 +25,12 @@ function Education() {
       <VerticalTimeline>
         {timelineElements.map((element) => {
             let isWorkIcon = element.icon === "work";
-            let isUb = element.id === 1;
-            let isEy = element.id === 2; 
-            let isAgsdo = element.id === 3; 
-            let isSrm = element.id === 4; 
-            let isNarayana = element.id === 5 || element.id === 6;
+            let isUb = element.id === 2;
+            let isCDF = element.id === 1;            
+            let isEy = element.id === 3; 
+            let isAgsdo = element.id === 4; 
+            let isSrm = element.id === 5; 
+            let isNarayana = element.id === 6 || element.id === 7;
             let showButton =
                 element.buttonText !== undefined &&
                 element.buttonText !== null &&
@@ -44,6 +46,7 @@ function Education() {
         >
             <div style={{display:"flex", alignItems: "center" }}>
                 <div style={{ width: "50px", height: "50px", overflow: "hidden", marginRight: "10px" }}>
+                    {isCDF && <img src={CDFImage} alt="Logo" style={{ width: "100%", height: "100%", objectFit: "cover" }} />}
                     {isUb && <img src={UBImage} alt="Logo" style={{ width: "100%", height: "100%", objectFit: "cover" }} />}
                     {isEy && <img src={EYImage} alt="Logo" style={{ width: "100%", height: "100%", objectFit: "cover" }} />}
                     {isAgsdo && <img src={AgsdoImage} alt="Logo" style={{ width: "100%", height: "100%", objectFit: "cover" }} />}

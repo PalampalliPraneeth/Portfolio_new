@@ -8,17 +8,18 @@ export const SKILLS = [
       { skill: "CSS3 (Sass/SCSS)", percentage: "75%" },
       { skill: "BootStrap", percentage: "75%" },
       { skill: "JavaScript", percentage: "80%" },
-      { skill: "React js", percentage: "80%" },
-      { skill: "Node js", percentage: "70%" },
+      { skill: "React JS", percentage: "80%" },
+      { skill: "Node JS", percentage: "70%" },
       { skill: "React Native", percentage: "70%" },
-      { skill: "TypeScript", percentage: "60%" },
+      { skill: "TypeScript", percentage: "65%" },
       { skill: "Angular", percentage: "65%" },
+      { skill: "Next JS", percentage: "70%" },
       { skill: "NPM", percentage: "60%" },
       { skill: "Rest API", percentage: "55%" },
       { skill: "Graph QL", percentage: "50%" },
       { skill: "Babel", percentage: "60%" },
       { skill: "WebPack", percentage: "65%" },
-      { skill: "Figma", percentage: "50%" },
+      { skill: "Figma", percentage: "70%" },
       { skill: "SharePoint", percentage: "50%" },
 
     ],
@@ -53,6 +54,19 @@ export const SKILLS = [
       { skill: "MS SQL", percentage: "75%" },
       { skill: "SnowFlake", percentage: "70%" },
 
+    ],
+  },
+  {
+    title: "Cloud",
+    icon: "./assets/images/c3.png",
+    style:{
+      'background_color': "red",
+    },
+    iconStyle: "fill: #7c5fe6;",
+    skills: [
+      { skill: "Azure DevOps", percentage: "70%" },
+      { skill: "AWS Suite (S3, Glue, Redshift)", percentage: "65%" },
+      { skill: "GCP", percentage: "60%" },
     ],
   },
   {
