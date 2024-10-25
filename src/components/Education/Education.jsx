@@ -55,14 +55,14 @@ function Education() {
                 </div>
                 <div>
                     <h3 style={{color: "black"}}>
-                        {element.title}
+                        {element.position}
                     </h3>
                     <div>
                         {/* <h5 style={{color: "black"}}>
                             {element.date}
                         </h5> */}
                         <h5 style={{color: "black"}}>
-                        {element.position}
+                        {element.title}
                         </h5>
                         <h5 style={{color: "black"}}>
                             {element.location}
