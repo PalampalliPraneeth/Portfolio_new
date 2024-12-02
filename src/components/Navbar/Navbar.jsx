@@ -16,9 +16,8 @@ const handleDownloadResume = () => {
     const resumeFile = "/assets/images/Resume_Software.pdf";
     const link = document.createElement("a");
     link.href = resumeFile;
-    link.download = "PraneethKumarReddy.pdf";
-
-    // Trigger a click event to download the file
+    link.download = "Praneeth_Software.pdf";
+    
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -36,7 +35,7 @@ const handleDownloadResume = () => {
       <nav className="nav-wrapper">
         <div className="nav-content">
           {/* <img className="logo" src="./assets/images/logo.svg" alt="" /> */}
-          <h1>P Praneeth Kumar Reddy</h1>
+          <h1>Praneeth Kumar P</h1>
 
           <ul>
             <li>

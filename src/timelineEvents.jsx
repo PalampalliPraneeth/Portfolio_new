@@ -2,14 +2,14 @@ let timelineElements = [
   {
     id: 1,
     title: "Community Dreams (Voluntary Full-Time)",
-    position: "Frontend Engineer",
+    position: "Software Engineer",
     location: "Boston, MA, United States of America",
     description:
       [
         <>
-        Designed and developed a clean energy website using <strong> Figma for UI/UX, React.js for frontend development, and Microsoft SQL Server for database management, </strong> transforming rough designs into functional web pages</>,
-        "Built a reusable component library with React-Redux, TypeScript, and Angular, improving development efficiency and maintaining project consistency",
-        <>Ensured 100% <strong> WCAG accessibility compliance by incorporating ARIA roles, color contrast validation, and keyboard navigability </strong>  into components, enhancing user accessibility across the site</>
+        Designed and developed a clean energy website using <strong> Java SpringBoot for Backend, Figma for UI/UX, React.js for frontend development, and Microsoft SQL Server for database management, </strong> transforming rough designs into functional web pages</>,
+        // "Built a reusable component library with React-Redux, TypeScript, and Angular, improving development efficiency and maintaining project consistency",
+        // <>Ensured 100% <strong> WCAG accessibility compliance by incorporating ARIA roles, color contrast validation, and keyboard navigability </strong>  into components, enhancing user accessibility across the site</>
     ],
     buttonText: "Company Website",
     date: "08/2024 - Present",
@@ -33,8 +33,7 @@ let timelineElements = [
     position: "Associate Software Engineer",
     location: "Pune, MH, India",
     description:
-      [<>Developed and maintained PAANS, <strong> a Consent Management app using React.js, TypeScript, Node.js, and RESTful APIs, </strong>enabling integration with privacy policies for GDPR compliance</>, 
-      "Streamlined user experience by integrating Auth0 Single Sign-On and JWT, reducing login time and enhancing security with Azure Active Directory (AAD), while automating CI/CD pipelines with Azure DevOps",
+      [<>Developed and maintained PAANS, <strong> a Consent Management app using React.js, Java Spring Boot, DJango, TypeScript, and Node.js </strong>enabling integration with privacy policies for GDPR compliance</>, 
       <>Engaged in <strong> Agile processes, contributing to architecture discussions, sprint planning, code reviews, and UAT production deployments,</strong> ensuring efficient project delivery</>,
       <>Received <strong> SPOT Award for resolving 90% of security vulnerabilities, </strong> leading to Checkmarx and WhiteSource certification and significantly boosting system security and stability</>
       ],
@@ -49,11 +48,11 @@ let timelineElements = [
     position: "Junior Software Engineer",
     location: "Kurnool, AP, India",
     description:
-      [<>Collaborated with a team in a startup environment, contributing to all stages of product development using SDLC and Agile methodologies, with a focus on full-stack development</>, 
-        <>Developed a full-stack application integrating <strong> PostgreSQL for backend data storage and React, Angular, for the frontend, </strong> optimizing SEO and enhancing user engagement</>,
+      [<>Collaborated with a team of 5 in a startup environment, contributing to all stages of product development using SDLC and Agile methodologies, with a focus on full-stack development</>, 
+        <>Developed a Java SpringBoot based backend full-stack application integrating <strong> Python DJango Restful APIs for backend data storage and React, Angular, for the frontend, </strong> optimizing SEO and enhancing user engagement</>,
         <>Improved infrastructure scalability with <strong> AWS (DynamoDB, EC2), Docker, Kubernetes, and streamlined CI/CD pipelines using Jenkins and Git </strong> to accelerate deployment times</>
         ],
-    date: "04/2020 - 10/2021",
+    date: "04/2019 - 10/2021",
     icon: "work",
   },
   {

@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="hero-content">
         <h2>Hi There, I'm Praneeth</h2>
         <p>
-          Passionate Frontend Developer | Transforming Ideas into Seamless and
+          Passionate FullStack Developer | Transforming Ideas into Seamless and
           Visually Stunning Web Solutions
         </p>
       </div>
@@ -35,7 +35,10 @@ const Hero = () => {
           </div>
           <div className="tech-icon">
             <img src="./assets/images/Typescript.png" alt="" />
+          </div><div className="tech-icon">
+            <img src="./assets/images/java.png" alt="" />
           </div>
+
           {/* <div className="tech-icon">
             <img src="./assets/images/Next.png" alt="" />
           </div> */}
