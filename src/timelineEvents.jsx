@@ -64,7 +64,7 @@ let timelineElements = [
       ["Pursued a Bachelor's degree in Information Technology.Studied diverse subjects including C programming, SQL, Html, CSS, Excel, R language, Python and Agile Methodology", 
       "Applied programming skills to real-world scenarios and projects"],
     buttonText: "Course Certificate",
-    date: "07/2017 - 06/2021",
+    date: "07/2017 - 04/2021",
     icon: "school",
     image: "../public/assets/images/SRM.png"
   },
